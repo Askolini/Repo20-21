@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #f4f4f4;
+    flex-direction: column;
+}
+
+.container{
+    width: flex;
+}
+  
+.wrapper{
+    min-width: 50%;
+    max-width: flex;
+    padding: 5px, 5px;
+    border-radius: 0px;
+    background: #1a1a1a;
+}
+
+.wrapper .keys{
+    display: flex;
+    justify-content: left;
+}
+
+.wrapper .keys input{
+    height: 60px;
+    min-width: 60px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    background: #000000;
+    margin: 1px;
+    color: #f4f4f4;
+    font-size: 20px;
+    border-radius: 0px;
+    cursor: default;
+}
+
+.wrapper .keys input:active{
+    color: #888888;
+}
+
+.wrapper .display{
+    width: flex;
+    height: 300px;
+    margin-bottom: 0px;
+    padding: 20px;
+    user-select: none;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.wrapper .display textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: 1px solid #0099f0;
+    resize: none;
+    color: #0099f0;
+    font-size: 20px;
+    padding: 10px, 10px;
+    border-radius: 0px;
+    background: #e0e0e0;
+    pointer-events: none;
+}
+
+::placeholder{
+    color: #0099f0;
+    opacity: 0.75;
+}
+
+.keys #enter {
+    width: 147px;
+}
+
+.keys #capslook {
+    width: 209px;
+}
+
+.keys #shift {
+    width: 209px;
+}
+
+.keys #space {
+    width: 556px;
+}
+
+.keys #ok {
+    width: 209px;
+}
