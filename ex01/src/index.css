@@ -24,7 +24,7 @@ body{
     justify-content: left;
 }
 
-.wrapper .keys input{
+.wrapper .keys button{
     height: 60px;
     min-width: 60px;
     padding: 20px;
@@ -38,7 +38,7 @@ body{
     cursor: default;
 }
 
-.wrapper .keys input:active{
+.wrapper .keys button:active{
     color: #888888;
 }
 
